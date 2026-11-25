@@ -1,0 +1,13 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "corpus_size": 20000,
+  "query_size": 500,
+  "dimension": 384,
+  "top_k": 10,
+  "device": "cpu",
+  "exact_bruteforce_ms_per_query": 1.157993651999277,
+  "best_recall_method": "Brute Force",
+  "best_recall_at_10": 1.0,
+  "best_speed_method": "FAISS IVF nprobe=1",
+  "best_speed_qps": 22231.918303178674
+}

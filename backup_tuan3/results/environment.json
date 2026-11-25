@@ -1,0 +1,8 @@
+{
+  "python": "3.13.18",
+  "torch": "2.14.1+cpu",
+  "faiss": "1.16.0",
+  "device": "cpu",
+  "gpu": null,
+  "seed": 42
+}
