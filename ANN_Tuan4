@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNSgsxh6IKvXdTmIySRnE6f",
+      "authorship_tag": "ABX9TyOi8rSEMJWTnApkP4h4+Xm3",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -2741,6 +2741,348 @@
             }
           },
           "d10f3748bd074564b0f20c33904b5c63": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "DescriptionStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "DescriptionStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "description_width": ""
+            }
+          },
+          "9d847307081c41af97710b8c12f22829": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "HBoxModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "HBoxModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "HBoxView",
+              "box_style": "",
+              "children": [
+                "IPY_MODEL_629cac8cbd994b0d9d40aff56462f979",
+                "IPY_MODEL_9c6fa6d3d9b84b6aa21932d347eed9cc",
+                "IPY_MODEL_4619f099c75a4301a3d43cc1897c113c"
+              ],
+              "layout": "IPY_MODEL_49d4d207ffab4ea29b0dab8bd068432c"
+            }
+          },
+          "629cac8cbd994b0d9d40aff56462f979": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "HTMLModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "HTMLModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "HTMLView",
+              "description": "",
+              "description_tooltip": null,
+              "layout": "IPY_MODEL_38e39facfb4947758f9a6d335fdb5c92",
+              "placeholder": "​",
+              "style": "IPY_MODEL_b06d0c5ab34e4d6aab22c57aeed34626",
+              "value": "Build NSW M=12: 100%"
+            }
+          },
+          "9c6fa6d3d9b84b6aa21932d347eed9cc": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "FloatProgressModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "FloatProgressModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "ProgressView",
+              "bar_style": "success",
+              "description": "",
+              "description_tooltip": null,
+              "layout": "IPY_MODEL_48d678fe897448ecb251a5752d62c9df",
+              "max": 19946,
+              "min": 0,
+              "orientation": "horizontal",
+              "style": "IPY_MODEL_e0ec9caf221646149f7e64928a085459",
+              "value": 19946
+            }
+          },
+          "4619f099c75a4301a3d43cc1897c113c": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "HTMLModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "HTMLModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "HTMLView",
+              "description": "",
+              "description_tooltip": null,
+              "layout": "IPY_MODEL_194a115959434ca097f078f4eea5e11f",
+              "placeholder": "​",
+              "style": "IPY_MODEL_f4cdb7a3ba614789bd2119c65861f1c0",
+              "value": " 19946/19946 [01:19&lt;00:00, 473.26it/s]"
+            }
+          },
+          "49d4d207ffab4ea29b0dab8bd068432c": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "38e39facfb4947758f9a6d335fdb5c92": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "b06d0c5ab34e4d6aab22c57aeed34626": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "DescriptionStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "DescriptionStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "description_width": ""
+            }
+          },
+          "48d678fe897448ecb251a5752d62c9df": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "e0ec9caf221646149f7e64928a085459": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "ProgressStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "ProgressStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "bar_color": null,
+              "description_width": ""
+            }
+          },
+          "194a115959434ca097f078f4eea5e11f": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "f4cdb7a3ba614789bd2119c65861f1c0": {
             "model_module": "@jupyter-widgets/controls",
             "model_name": "DescriptionStyleModel",
             "model_module_version": "1.5.0",
@@ -14956,6 +15298,508 @@
             "    │   ├── 📄 __init__.cpython-313.pyc\n",
             "    │   └── 📄 test_algorithms.cpython-313-pytest-8.4.2.pyc\n",
             "    └── 📄 test_algorithms.py\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')\n",
+        "\n",
+        "import os\n",
+        "import shutil\n",
+        "\n",
+        "PROJECT_PATH = \"/content/drive/MyDrive/ANN_Vector_Embedding\"\n",
+        "\n",
+        "print(\"Thư mục tồn tại:\", os.path.exists(PROJECT_PATH))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AjyNBx30attE",
+        "outputId": "c55d738e-64ac-4b4b-d7dc-26894a00ce74"
+      },
+      "execution_count": 65,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n",
+            "Thư mục tồn tại: True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "folders = [\n",
+        "    \"data\",\n",
+        "    \"src\",\n",
+        "    \"tests\",\n",
+        "    \"results\",\n",
+        "    \"notebooks\",\n",
+        "    \"backup_tuan3\"\n",
+        "]\n",
+        "\n",
+        "for folder in folders:\n",
+        "    path = os.path.join(PROJECT_PATH, folder)\n",
+        "    os.makedirs(path, exist_ok=True)\n",
+        "    print(\"Đã kiểm tra:\", folder)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hA6_SE66a1Xe",
+        "outputId": "eab481ae-2f41-43b3-d853-4466ce3981a6"
+      },
+      "execution_count": 66,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Đã kiểm tra: data\n",
+            "Đã kiểm tra: src\n",
+            "Đã kiểm tra: tests\n",
+            "Đã kiểm tra: results\n",
+            "Đã kiểm tra: notebooks\n",
+            "Đã kiểm tra: backup_tuan3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for root, dirs, files in os.walk(PROJECT_PATH):\n",
+        "    dirs[:] = [d for d in dirs if d not in [\".pytest_cache\", \"__pycache__\", \"backup_tuan3\"]]\n",
+        "\n",
+        "    for file in files:\n",
+        "        if file.endswith(\".ipynb\"):\n",
+        "            print(os.path.join(root, file))"
+      ],
+      "metadata": {
+        "id": "337L8oXya7Gv"
+      },
+      "execution_count": 67,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import importlib.metadata as metadata\n",
+        "\n",
+        "packages = [\n",
+        "    \"numpy\",\n",
+        "    \"pandas\",\n",
+        "    \"scikit-learn\",\n",
+        "    \"matplotlib\",\n",
+        "    \"pytest\",\n",
+        "    \"faiss-cpu\",\n",
+        "    \"sentence-transformers\",\n",
+        "    \"transformers\",\n",
+        "    \"torch\"\n",
+        "]\n",
+        "\n",
+        "requirements = []\n",
+        "\n",
+        "for package in packages:\n",
+        "    try:\n",
+        "        version = metadata.version(package)\n",
+        "        requirements.append(f\"{package}=={version}\")\n",
+        "    except metadata.PackageNotFoundError:\n",
+        "        pass\n",
+        "\n",
+        "requirements_path = os.path.join(PROJECT_PATH, \"requirements.txt\")\n",
+        "\n",
+        "with open(requirements_path, \"w\") as f:\n",
+        "    f.write(\"\\n\".join(requirements))\n",
+        "\n",
+        "print(open(requirements_path).read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QftFSVq6bNK1",
+        "outputId": "30b001c9-2933-43bc-e256-b98db20dd9ff"
+      },
+      "execution_count": 69,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "numpy==2.4.6\n",
+            "pandas==2.2.3\n",
+            "scikit-learn==1.6.1\n",
+            "matplotlib==3.10.0\n",
+            "pytest==8.4.2\n",
+            "sentence-transformers==5.7.0\n",
+            "transformers==5.22.1\n",
+            "torch==2.14.1+cpu\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "requirements = \"\"\"numpy==2.4.6\n",
+        "pandas==2.2.3\n",
+        "scikit-learn==1.6.1\n",
+        "matplotlib==3.10.0\n",
+        "pytest==8.4.2\n",
+        "sentence-transformers==5.7.0\n",
+        "transformers==5.22.1\n",
+        "torch==2.14.1+cpu\n",
+        "\"\"\"\n",
+        "\n",
+        "path = \"/content/drive/MyDrive/ANN_Vector_Embedding/requirements.txt\"\n",
+        "\n",
+        "with open(path, \"w\", encoding=\"utf-8\") as f:\n",
+        "    f.write(requirements)\n",
+        "\n",
+        "print(\"Đã tạo requirements.txt!\")\n",
+        "print(open(path, encoding=\"utf-8\").read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7iMnOgcXbdnR",
+        "outputId": "fc1a0beb-8448-4863-de88-bd0c231c44e0"
+      },
+      "execution_count": 70,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Đã tạo requirements.txt!\n",
+            "numpy==2.4.6\n",
+            "pandas==2.2.3\n",
+            "scikit-learn==1.6.1\n",
+            "matplotlib==3.10.0\n",
+            "pytest==8.4.2\n",
+            "sentence-transformers==5.7.0\n",
+            "transformers==5.22.1\n",
+            "torch==2.14.1+cpu\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import sys\n",
+        "sys.path.insert(\n",
+        "    0,\n",
+        "    \"/content/drive/MyDrive/ANN_Vector_Embedding\"\n",
+        ")\n",
+        "\n",
+        "import numpy as np\n",
+        "from src.algorithms.nsw import SimpleNSW\n",
+        "\n",
+        "X = np.load(\n",
+        "    \"/content/drive/MyDrive/ANN_Vector_Embedding/data/corpus_embeddings_clean.npy\"\n",
+        ")\n",
+        "\n",
+        "Q = np.load(\n",
+        "    \"/content/drive/MyDrive/ANN_Vector_Embedding/data/query_embeddings.npy\"\n",
+        ")\n",
+        "\n",
+        "print(\"Corpus:\", X.shape)\n",
+        "print(\"Queries:\", Q.shape)\n",
+        "\n",
+        "model = SimpleNSW(\n",
+        "    M=12,\n",
+        "    build_candidates=100\n",
+        ")\n",
+        "\n",
+        "model.fit(X)\n",
+        "\n",
+        "result = model.search(\n",
+        "    Q[:5],\n",
+        "    k=10,\n",
+        "    ef=100\n",
+        ")\n",
+        "\n",
+        "print(\"\\nKẾT QUẢ NSW\")\n",
+        "print(\"Shape:\", result.shape)\n",
+        "print(\"5 truy vấn đầu:\")\n",
+        "print(result)\n",
+        "\n",
+        "print(\"\\nKIỂM TRA ID\")\n",
+        "print(\"ID nhỏ nhất:\", result.min())\n",
+        "print(\"ID lớn nhất:\", result.max())\n",
+        "print(\"Số ID hợp lệ:\", np.sum(\n",
+        "    (result >= 0) & (result < len(X))\n",
+        "))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 327,
+          "referenced_widgets": [
+            "9d847307081c41af97710b8c12f22829",
+            "629cac8cbd994b0d9d40aff56462f979",
+            "9c6fa6d3d9b84b6aa21932d347eed9cc",
+            "4619f099c75a4301a3d43cc1897c113c",
+            "49d4d207ffab4ea29b0dab8bd068432c",
+            "38e39facfb4947758f9a6d335fdb5c92",
+            "b06d0c5ab34e4d6aab22c57aeed34626",
+            "48d678fe897448ecb251a5752d62c9df",
+            "e0ec9caf221646149f7e64928a085459",
+            "194a115959434ca097f078f4eea5e11f",
+            "f4cdb7a3ba614789bd2119c65861f1c0"
+          ]
+        },
+        "id": "nFomqExncR_F",
+        "outputId": "7d8dca4d-36d5-4095-cf95-f5e751cab410"
+      },
+      "execution_count": 73,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Corpus: (19947, 384)\n",
+            "Queries: (500, 384)\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Build NSW M=12:   0%|          | 0/19946 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "9d847307081c41af97710b8c12f22829"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "KẾT QUẢ NSW\n",
+            "Shape: (5, 10)\n",
+            "5 truy vấn đầu:\n",
+            "[[17029  3830  8403 13526 17667  8821 18023  9637 16468 13621]\n",
+            " [ 5081  8823 17882 19506  1842  8543 12161  4513 12799  5323]\n",
+            " [11888  9416 14673 11154 12360  9269  7973 14138  8954  2971]\n",
+            " [ 6881  1129  5995  5612 17834 16407 10991  8104  3459  2324]\n",
+            " [ 9163 16034 15626  6782 14196  7358 13152 18692  3736  8951]]\n",
+            "\n",
+            "KIỂM TRA ID\n",
+            "ID nhỏ nhất: 1129\n",
+            "ID lớn nhất: 19506\n",
+            "Số ID hợp lệ: 50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "ground_truth = np.load(\n",
+        "    \"/content/drive/MyDrive/ANN_Vector_Embedding/results/ground_truth_top10.npy\"\n",
+        ")\n",
+        "\n",
+        "# Tìm kiếm toàn bộ 500 truy vấn\n",
+        "nsw_results = model.search(\n",
+        "    Q,\n",
+        "    k=10,\n",
+        "    ef=100\n",
+        ")\n",
+        "\n",
+        "# Tính Recall@10\n",
+        "recalls = []\n",
+        "\n",
+        "for i in range(len(Q)):\n",
+        "    actual = set(nsw_results[i])\n",
+        "    expected = set(ground_truth[i])\n",
+        "\n",
+        "    recall = len(actual & expected) / 10\n",
+        "    recalls.append(recall)\n",
+        "\n",
+        "print(\"NSW Recall@10:\", np.mean(recalls))\n",
+        "print(\"Số truy vấn:\", len(recalls))\n",
+        "print(\"Số kết quả:\", nsw_results.shape)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NbSbFc26c0EE",
+        "outputId": "3cf007a2-4231-4e71-fb2f-7f79d469dfb7"
+      },
+      "execution_count": 74,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "NSW Recall@10: 0.0004\n",
+            "Số truy vấn: 500\n",
+            "Số kết quả: (500, 10)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Corpus sạch:\", len(X))\n",
+        "print(\"Ground Truth:\", ground_truth.shape)\n",
+        "\n",
+        "print(\n",
+        "    \"ID Ground Truth vượt giới hạn:\",\n",
+        "    np.sum(ground_truth >= len(X))\n",
+        ")\n",
+        "\n",
+        "print(\n",
+        "    \"Số ID Ground Truth âm:\",\n",
+        "    np.sum(ground_truth < 0)\n",
+        ")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5elE-V5zdIW7",
+        "outputId": "0b225ae0-2204-43e1-b909-4251d37e8a59"
+      },
+      "execution_count": 76,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Corpus sạch: 19947\n",
+            "Ground Truth: (500, 10)\n",
+            "ID Ground Truth vượt giới hạn: 10\n",
+            "Số ID Ground Truth âm: 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "import os\n",
+        "\n",
+        "BASE = \"/content/drive/MyDrive/ANN_Vector_Embedding\"\n",
+        "\n",
+        "X_clean = np.load(\n",
+        "    os.path.join(BASE, \"data/corpus_embeddings_clean.npy\")\n",
+        ")\n",
+        "\n",
+        "Q = np.load(\n",
+        "    os.path.join(BASE, \"data/query_embeddings.npy\")\n",
+        ")\n",
+        "\n",
+        "# Kiểm tra dữ liệu\n",
+        "assert X_clean.shape[1] == Q.shape[1]\n",
+        "assert np.isfinite(X_clean).all()\n",
+        "assert np.isfinite(Q).all()\n",
+        "\n",
+        "# Tạo Ground Truth bằng Brute Force\n",
+        "K = 10\n",
+        "\n",
+        "scores = Q @ X_clean.T\n",
+        "\n",
+        "ground_truth_scores = np.sort(\n",
+        "    scores, axis=1\n",
+        ")[:, -K:][:, ::-1]\n",
+        "\n",
+        "ground_truth_top10 = np.argsort(\n",
+        "    -scores, axis=1\n",
+        ")[:, :K]\n",
+        "\n",
+        "# Lưu kết quả\n",
+        "np.save(\n",
+        "    os.path.join(BASE, \"results/ground_truth_top10.npy\"),\n",
+        "    ground_truth_top10\n",
+        ")\n",
+        "\n",
+        "np.save(\n",
+        "    os.path.join(BASE, \"results/ground_truth_scores.npy\"),\n",
+        "    ground_truth_scores\n",
+        ")\n",
+        "\n",
+        "print(\"Đã tạo lại Ground Truth!\")\n",
+        "print(\"Shape:\", ground_truth_top10.shape)\n",
+        "print(\"ID nhỏ nhất:\", ground_truth_top10.min())\n",
+        "print(\"ID lớn nhất:\", ground_truth_top10.max())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W2_-Hq5gdUaU",
+        "outputId": "7e333d45-c128-430e-93a2-a2eb0751ab86"
+      },
+      "execution_count": 77,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Đã tạo lại Ground Truth!\n",
+            "Shape: (500, 10)\n",
+            "ID nhỏ nhất: 7\n",
+            "ID lớn nhất: 19943\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nsw_results = model.search(Q, k=10, ef=100)\n",
+        "\n",
+        "recalls = []\n",
+        "\n",
+        "for i in range(len(Q)):\n",
+        "    actual = set(nsw_results[i])\n",
+        "    expected = set(ground_truth_top10[i])\n",
+        "\n",
+        "    recalls.append(\n",
+        "        len(actual & expected) / 10\n",
+        "    )\n",
+        "\n",
+        "print(\"NSW Recall@10:\", np.mean(recalls))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cr5FNktxdZWv",
+        "outputId": "9d7aa626-cca4-4ff5-bce6-09e7b0fd8f2d"
+      },
+      "execution_count": 78,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "NSW Recall@10: 0.8782000000000001\n"
           ]
         }
       ]
